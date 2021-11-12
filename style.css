@@ -107,7 +107,7 @@ section{
     right:30px;
     display:flex;
     flex-direction: column;
-    margin-top:100px;
+    margin-top:200px;
 }
 
 .home .media-icons a{
@@ -127,3 +127,24 @@ section{
 .svg-apply{
     filter: invert(100%);
 }
+
+@media (max-width:1040px){
+    header{
+        padding: 12px 20px;
+    }
+    section{
+        padding: 100px 20px;
+    }
+    .home .media-icons{
+        right:15px;
+    }
+    header .navigation{
+        display:none;
+    }
+}
+
+.brand img{
+    height:100px;
+    width:109px;
+}
+
